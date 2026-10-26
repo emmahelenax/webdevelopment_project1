@@ -21,8 +21,11 @@ Wifeframe of the website:
 **Weblinks**
 
 Published application:
+
 Github repository:
+
 Project video presentation:
+
 
 **About the Application**
 
@@ -58,7 +61,10 @@ I think I would give myself an 8/10, because I could have added more features bu
 **Sources and Acknowledgements**
 
 A YouTube video was used as a basis for this project to build the website and understand the components. Link to video: https://www.youtube.com/watch?v=G0jO8kUrg-I
+
 Icons used were found from: https://www.flaticon.com/
+
+Fonts were found from: https://fonts.google.com/
 
 ChatGPT was used to figure out why the cross icon for deleting tasks was not showing after adding tasks to the lists. Also to help figure out why the picture was not behaving as it should, since it wanted to go to the bottom of the page and not align with the task-box. 
 
