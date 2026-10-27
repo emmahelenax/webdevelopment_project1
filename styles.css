@@ -1,0 +1,173 @@
+/*Setting up the style structure for the webpage*/
+
+h1 {
+    font-family:"Space Mono", sans-serif;
+    font-size: 58px;
+    margin-top: 50px;
+    color: #443223;
+    background-color: #fff9f3;
+}
+
+body {
+    text-align: center;
+    font-family: "Noto Serif", sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color:#eeece9;
+    background-repeat: repeat;
+    margin-top: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 25px 6%;
+}
+
+/* Styling the main picture */
+
+.main-picture {
+    width: 600px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.main-picture img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Styling the to-do list box */
+
+.todo-list {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: 200px;
+    padding: 20px 30px 200px;
+    border-radius: 10px;
+    background-color: #dbc4a5;
+    font-family: "Space Mono", sans-serif;
+}
+
+.todo-list h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-family: "Space Mono", sans-serif;
+    font-size: 36px;
+    color: #443223;
+}
+
+.todo-list h3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: 400;
+    font-family: "Space Mono", sans-serif;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background: #eeece9;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+    font-size: 20px;
+    font-family: "Space Mono", sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #44422d;
+    color: #dbc4a5;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Space Mono", sans-serif;
+}
+
+/* Styling the to-do list items */
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(pictures/circle_regular.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+
+}
+
+ul li.checked::before{
+    background-image: url(pictures/check.png);
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #44422d;
+}
+
+ul li span:hover {
+    background: #eeece9;
+}
+
+/* Styling the footer */
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background: #fff9f3;
+  font-family: "Space Mono", sans-serif;
+  color: #44422d;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}

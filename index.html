@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Setting up the basic structure for the webpage -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stable Worker's Tasks</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Meie+Script&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    
+
+</head>
+
+<!-- The body of the webpage-->
+<body>
+    <h1>Stable Worker's Daily Tasks</h1>
+
+<main class="container">
+    <section class="todo-list">
+        <h2>To-Do List</h2>
+        <h3>What needs to be done today?</h3>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your task here...">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container"></ul>
+    </section>
+
+<!-- Setting up the main picture -->
+    <section class="main-picture">
+        <img src="/pictures/picture_of_pentti.jpeg" alt="Picture of Pentti">
+    </section>
+
+</main>
+
+    <footer>
+        <small>© 2026 Emma Botha-Sola - to-do list. All rights reserved.</small>
+    </footer>
+
+</body>
+
+</html>
