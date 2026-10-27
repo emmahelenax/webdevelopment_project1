@@ -20,7 +20,7 @@ Wifeframe of the website:
 
 ## **Weblinks**
 
-Published application:
+Published application: https://emmahelenax.github.io/webdevelopment_project1/
 
 Github repository: https://github.com/emmahelenax/webdevelopment_project1
 
