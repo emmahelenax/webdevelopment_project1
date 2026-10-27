@@ -22,7 +22,7 @@ Wifeframe of the website:
 
 Published application:
 
-Github repository:
+Github repository: https://github.com/emmahelenax/webdevelopment_project1
 
 Project video presentation: https://video.laurea.fi/media/Project+presentation%2C+Botha-Sola/0_60eykumv
 
@@ -39,6 +39,10 @@ The Stable Worker's Daily Schedule is an application where he workers may add th
 - localStorage to save the data in browser so tasks don't get lost
 
 ## **Running the Application Locally**
+
+1. Download or clone the repository to your computer.
+2. Open the project folder for example on Visual Studio Code.
+3. Open index.html in a web browser to run the application for example on Live Server through VS Code.
 
 ## **Screenshot of Page**
 
